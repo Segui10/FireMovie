@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivBookCover"
+        android:layout_width="76dp"
+        android:layout_height="110dp" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_toRightOf="@+id/ivBookCover"
+        android:text="Title"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="22dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/favorite"
+        android:layout_toRightOf="@+id/ivBookCover"
+        android:layout_below="@+id/tvTitle"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="7dp"/>
+
+    <TextView
+        android:id="@+id/tvStars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/imageView4"
+        android:layout_below="@+id/tvTitle"
+        android:text="Stars"
+        android:textSize="12dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.22"
+        android:src="@drawable/group"
+        android:layout_toRightOf="@+id/tvStars"
+        android:layout_below="@+id/tvTitle"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="7dp"/>
+
+    <TextView
+        android:id="@+id/tvVotecount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/imageView5"
+        android:layout_below="@+id/tvTitle"
+        android:text="RDate"
+        android:textSize="12dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/calendar"
+        android:layout_toRightOf="@+id/ivBookCover"
+        android:layout_below="@+id/imageView4"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="7dp"/>
+
+    <TextView
+        android:id="@+id/tvRdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/imageView6"
+        android:layout_below="@+id/imageView4"
+        android:text="RDate"
+        android:textSize="12dp" />
+</RelativeLayout>
