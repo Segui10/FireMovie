@@ -47,10 +47,10 @@ public class FragmentoCategoria extends Fragment {
                 adaptador = new AdaptadorCategorias(getContext(),Comidas.getComidasPopulares());
                 break;
             case 1:
-                adaptador = new AdaptadorCategorias(getContext(),Comidas.getBEBIDAS());
+                adaptador = new AdaptadorCategorias(getContext(),Comidas.getComidasPopulares());
                 break;
             case 2:
-                adaptador = new AdaptadorCategorias(getContext(),Comidas.getPOSTRES());
+                adaptador = new AdaptadorCategorias(getContext(),Comidas.getComidasPopulares());
                 break;
         }
 

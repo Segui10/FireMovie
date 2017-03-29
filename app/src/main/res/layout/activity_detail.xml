@@ -4,6 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <!-- App Bar -->
+
     <android.support.v4.widget.NestedScrollView
         android:id="@+id/scroll"
         android:layout_width="match_parent"
@@ -13,12 +15,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:paddingBottom="@dimen/activity_vertical_margin"
-            android:paddingLeft="@dimen/activity_horizontal_margin"
-            android:paddingRight="@dimen/activity_horizontal_margin"
-            android:paddingTop="@dimen/activity_vertical_margin"
-            android:weightSum="1">
+            android:orientation="vertical">
 
 
             <TextView
@@ -29,9 +26,9 @@
                 android:gravity="center"
                 android:text="Nombre"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ef3b3b"
                 android:textSize="30sp"
-                android:textStyle="bold"
-                android:textColor="#ef3b3b"/>
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -44,8 +41,7 @@
                     android:layout_width="135dp"
                     android:layout_height="190dp"
                     android:scaleType="centerCrop"
-                    android:transitionName="shared_image"
-                    />
+                    android:transitionName="shared_image" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -55,9 +51,9 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
                         android:orientation="horizontal"
-                        android:paddingLeft="@dimen/espacio_norma_1"
-                        android:layout_marginTop="15dp">
+                        android:paddingLeft="@dimen/espacio_norma_1">
 
                         <TextView
                             android:id="@+id/textView2"
@@ -79,9 +75,9 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
                         android:orientation="horizontal"
-                        android:paddingLeft="@dimen/espacio_norma_1"
-                        android:layout_marginTop="15dp">
+                        android:paddingLeft="@dimen/espacio_norma_1">
 
                         <TextView
                             android:id="@+id/textView5"
@@ -90,7 +86,7 @@
                             android:layout_weight="1"
                             android:text="Bugdet"
                             android:textColor="?colorPrimary"
-                            android:textStyle="bold"/>
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/textView4"
@@ -103,17 +99,18 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
                         android:orientation="horizontal"
-                        android:paddingLeft="@dimen/espacio_norma_1"
-                        android:layout_marginTop="15dp">
+                        android:paddingLeft="@dimen/espacio_norma_1">
 
                         <TextView
                             android:id="@+id/textView7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Revenue" android:textColor="?colorPrimary"
-                            android:textStyle="bold"/>
+                            android:text="Revenue"
+                            android:textColor="?colorPrimary"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/textView6"
@@ -126,17 +123,18 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
                         android:orientation="horizontal"
-                        android:paddingLeft="@dimen/espacio_norma_1"
-                        android:layout_marginTop="15dp">
+                        android:paddingLeft="@dimen/espacio_norma_1">
 
                         <TextView
                             android:id="@+id/textView9"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Production" android:textColor="?colorPrimary"
-                            android:textStyle="bold"/>
+                            android:text="Production"
+                            android:textColor="?colorPrimary"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/textView8"
@@ -153,10 +151,10 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="27dp"
-                android:orientation="horizontal"
-                android:weightSum="1"
+                android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp">
+                android:orientation="horizontal"
+                android:weightSum="1">
 
                 <ImageView
                     android:id="@+id/imageView7"
@@ -213,8 +211,7 @@
                 <LinearLayout
                     android:layout_width="369dp"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    >
+                    android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/tag_description"
@@ -237,7 +234,7 @@
 
 
     </android.support.v4.widget.NestedScrollView>
-    <!-- App Bar -->
+
     <android.support.design.widget.AppBarLayout
         android:id="@+id/app_bar"
         android:layout_width="match_parent"

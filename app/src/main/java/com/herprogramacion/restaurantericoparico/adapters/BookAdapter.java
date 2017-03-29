@@ -24,7 +24,6 @@ public class BookAdapter extends ArrayAdapter<Book> {
     private static class ViewHolder {
         public ImageView ivCover;
         public TextView tvTitle;
-        public TextView tvAuthor;
         public TextView tvStars;
         public TextView tvRdate;
         public TextView tvVotecount;
@@ -48,9 +47,9 @@ public class BookAdapter extends ArrayAdapter<Book> {
             convertView = inflater.inflate(R.layout.item_book, parent, false);
             viewHolder.ivCover = (ImageView)convertView.findViewById(R.id.ivBookCover);
             viewHolder.tvTitle = (TextView)convertView.findViewById(R.id.tvTitle);
-           viewHolder.tvStars = (TextView)convertView.findViewById(R.id.tvStars);
+            viewHolder.tvStars = (TextView)convertView.findViewById(R.id.tvStars);
             viewHolder.tvRdate = (TextView)convertView.findViewById(R.id.tvRdate);
-           viewHolder.tvVotecount = (TextView)convertView.findViewById(R.id.tvVotecount);
+            viewHolder.tvVotecount = (TextView)convertView.findViewById(R.id.tvVotecount);
             convertView.setTag(viewHolder);
         } else {
             viewHolder = (ViewHolder) convertView.getTag();

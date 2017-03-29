@@ -21,7 +21,7 @@ public class ActividadPrincipal extends AppCompatActivity {
     private DrawerLayout drawerLayout;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.actividad_principal);
 
@@ -72,7 +72,7 @@ public class ActividadPrincipal extends AppCompatActivity {
                 fragmentoGenerico = new FragmentoInicio();
                 break;
             case R.id.item_cuenta:
-                fragmentoGenerico = new FragmentoCuenta();
+                fragmentoGenerico = new FragmentoCategorias();
                 break;
             case R.id.item_categorias:
                 fragmentoGenerico = new FragmentoCategorias();
